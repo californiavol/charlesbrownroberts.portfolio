@@ -96,8 +96,10 @@ window.onload = function () { "use strict"; gaSSDSLoad(""); }; //load after page
 |--------------------------------------------------------------------------
 */  
 
+
 $(document).ready(function() {
     "use strict";
+	
 
     /*
     |--------------------------------------------------------------------------
@@ -105,9 +107,10 @@ $(document).ready(function() {
     |--------------------------------------------------------------------------
     */
 
-
+console.log($('#homeFullScreen').length);
     if ($('#homeFullScreen').length)
     {
+		
         fullscreenImage();
     }
     //alert($('#mainHeader').height());
@@ -117,16 +120,14 @@ $(document).ready(function() {
 
      if ($('#fullScreen').length)
      {
-
-    
-        if ($(window).scrollTop()>= $starter){
+       if ($(window).scrollTop()>= $starter){
            $('#mainHeader').slideDown();
        } else if ($(window).scrollTop()==0){
            $('#mainHeader').slideUp();
        }
-   }
+     }
 
-     });
+});
 
 
 
@@ -1409,6 +1410,7 @@ document.getElementsByTagName('head')[0].appendChild(s);
 /** FULLSCREEN IMAGE **/
 
 function fullscreenImage(){
+	
           $('#homeFullScreen').css({height:$(window).height()})   
 }
 
