@@ -2,15 +2,15 @@
 
 var doughnutData = [
 	{
-		value: 70,
+		value: 80,
 		color:"#1abc9c"
 	},
 	{
-		value : 30,
+		value : 20,
 		color : "#ecf0f1"
 	}
 ];
-var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+var myDoughnut = new Chart(document.getElementById("php").getContext("2d")).Doughnut(doughnutData);
 								
 
 var doughnutData = [
@@ -53,11 +53,11 @@ var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Dou
 
 var doughnutData = [
 	{
-		value: 70,
+		value: 50,
 		color:"#1abc9c"
 	},
 	{
-		value : 30,
+		value : 50,
 		color : "#ecf0f1"
 	}
 ];
@@ -65,11 +65,11 @@ var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")
 
 var doughnutData = [
 	{
-		value: 50,
+		value: 80,
 		color:"#1abc9c"
 	},
 	{
-		value : 50,
+		value : 20,
 		color : "#ecf0f1"
 	}
 ];
