@@ -347,7 +347,7 @@ a.readMore {
 	font-style:italic;
 }
 blockquote {
-	font-size:22px;
+	
 	line-height: 33px;
 	margin-bottom:0;
 	font-weight:300;
@@ -359,20 +359,7 @@ blockquote {
 blockquote p {
 	font-size: inherit;
 }
-blockquote small {
-	font-size:50%;
-	display:inline;
-}
-blockquote:before {
-	content:'\e928';
-	font-family: 'custom-icons';
-	margin-right:0.5em;
-}
-blockquote:after {
-	content:'\e929';
-	font-family: 'custom-icons';
-	margin-left:0.5em;
-}
+
 .quoteRow blockquote:before, .quoteRow blockquote:after {
 	content:none;
 }
@@ -472,7 +459,7 @@ hr {
 }
 
 @media(min-width:768px){
-	.slice {padding:66px 0;}
+	.slice {padding:96px 0;}
 }
 
 @media(min-width:992px){
@@ -588,7 +575,7 @@ hr {
 	-ms-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 }
-.navbar-nav > li > a i {font-size: 16px; text-align: center;padding: 20px 0 10px 0; color:#ccc;}
+.navbar-nav > li > a i {text-align: center;padding: 20px 0 10px 0; color:#ccc;}
 .navbar-nav > li > a:hover i, .navbar-nav > li.active > a i {color:#fff;}
 #mainHeader .pull-right{ float:none !important; }
 
