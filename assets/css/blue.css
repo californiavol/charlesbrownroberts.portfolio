@@ -68,7 +68,7 @@ h2.subTitle:after, h1.noSubtitle:after{
 	background-image:url('/assets/images/home.jpg');
 }
 #paralaxSlice1 {
-	background-image: url('/assets/images/portfolio.jpg');
+	background-image: url('/assets/images/responsive-mockup.jpg');
 }
 #paralaxSlice2 {
 	background-image: url('/assets/images/golden-gate.jpg');
@@ -81,6 +81,7 @@ h2.subTitle:after, h1.noSubtitle:after{
 }
 #paralaxSlice5 {
 	background-image:  url('/assets/images/code.jpg');
+	opacity: 0.7;
 }
 .paralaxText blockquote, .paralaxText h1, .paralaxText h2, .paralaxText h3, .paralaxText p, .paralaxText i{
 	color:#fff;
