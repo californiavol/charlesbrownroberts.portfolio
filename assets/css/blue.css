@@ -394,6 +394,7 @@ border:none}
 .color4 h1, .color4 h2, .color4 h3, .color4 h4, .color4 blockquote, .color4 a {
 	color:#fff;
 }
+.color4 h2 {font-size:20px;}
 .color4 h2.subTitle:after, .color4 h1.noSubtitle:after {
 	background:#fff;
 }
@@ -419,7 +420,7 @@ border:none}
 }
 
 .chart {
-    float: left;
+    /* float: left; */
     margin: 10px;
 }
 
