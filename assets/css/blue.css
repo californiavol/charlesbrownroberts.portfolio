@@ -68,7 +68,7 @@ h2.subTitle:after, h1.noSubtitle:after{
 	background-image:url('/assets/images/home.jpg');
 }
 #paralaxSlice1 {
-	background-image: url('/assets/images/responsive-mockup.jpg');
+	background-image: url('/assets/images/ams-responsive-showcase.jpg');
 }
 #paralaxSlice2 {
 	background-image: url('/assets/images/golden-gate.jpg');
@@ -398,6 +398,7 @@ border:none}
 .color4 h2.subTitle:after, .color4 h1.noSubtitle:after {
 	background:#fff;
 }
+.color4 p {font-size:12px;}
 /*** icons ***/
 .iconRounded {border:2px solid #3E6D92;color:#3E6D92;background-color:#fff;}
 .iconRounded:hover, .color1 .iconRounded:hover{background-color:#3E6D92;color:#fff;}
