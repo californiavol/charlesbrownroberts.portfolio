@@ -523,7 +523,7 @@ hr {
 /* HEADER
 ================================================== */
 #mainHeader{background:#eee;}
-.navbar-brand{padding-top:0px;padding-left: 0;}
+.navbar-brand{padding-top:20px;padding-left: 0;}
 
 
 .fixedHeader {
