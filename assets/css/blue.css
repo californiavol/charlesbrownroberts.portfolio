@@ -399,6 +399,24 @@ border:none}
 	background:#fff;
 }
 .color4 p {font-size:12px;}
+.boxContent h5 {margin-bottom:4px;}
+.boxContent > ul {
+	padding-left:4px;
+	list-style-type:none;
+	
+}
+.boxContent > ul li {
+	font-size:14px;
+	padding-bottom:10px;
+}
+.boxContent ul li a:link,
+.boxContent ul li a:visited {
+	text-decoration:underline;
+}
+.boxContent ul li a:hover,
+.boxContent ul li a:active {
+	text-decoration:none;
+}
 /*** icons ***/
 .iconRounded {border:2px solid #3E6D92;color:#3E6D92;background-color:#fff;}
 .iconRounded:hover, .color1 .iconRounded:hover{background-color:#3E6D92;color:#fff;}
