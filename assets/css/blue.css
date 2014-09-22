@@ -68,7 +68,7 @@ h2.subTitle:after, h1.noSubtitle:after{
 	background-image:url('/assets/images/home.jpg');
 }
 #paralaxSlice1 {
-	background-image: url('/assets/images/responsive-mockup.jpg');
+	background-image: url('/assets/images/ams-responsive-showcase.jpg');
 }
 #paralaxSlice2 {
 	background-image: url('/assets/images/golden-gate.jpg');
@@ -394,8 +394,28 @@ border:none}
 .color4 h1, .color4 h2, .color4 h3, .color4 h4, .color4 blockquote, .color4 a {
 	color:#fff;
 }
+.color4 h2 {font-size:20px;}
 .color4 h2.subTitle:after, .color4 h1.noSubtitle:after {
 	background:#fff;
+}
+.color4 p {font-size:12px;}
+.boxContent h5 {margin-bottom:4px;}
+.boxContent > ul {
+	padding-left:4px;
+	list-style-type:none;
+	
+}
+.boxContent > ul li {
+	font-size:14px;
+	padding-bottom:10px;
+}
+.boxContent ul li a:link,
+.boxContent ul li a:visited {
+	text-decoration:underline;
+}
+.boxContent ul li a:hover,
+.boxContent ul li a:active {
+	text-decoration:none;
 }
 /*** icons ***/
 .iconRounded {border:2px solid #3E6D92;color:#3E6D92;background-color:#fff;}
@@ -419,7 +439,7 @@ border:none}
 }
 
 .chart {
-    float: left;
+    /* float: left; */
     margin: 10px;
 }
 
