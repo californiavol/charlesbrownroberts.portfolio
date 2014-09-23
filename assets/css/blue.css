@@ -38,7 +38,7 @@
 ================================================== */
 
 body {
-	color:#777;
+	color:#555;
 	background: #fff;
 }
 
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 	color:#222;
 }
 h2 {
- color:#888;	
+ color:#444;	
 }
 h2 i {color:#999}
 h2.subTitle:after, h1.noSubtitle:after{
